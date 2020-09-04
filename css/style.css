@@ -54,7 +54,7 @@ ul {
 a {
     color: inherit;
     text-decoration: none;
-    
+
 }
 
 .container {
@@ -64,7 +64,8 @@ a {
 }
 
 .page-section {
-    margin: 200px 0;
+    margin: 200px auto;
+    max-width: 1920px;
 }
 
 .title {
@@ -107,7 +108,7 @@ a {
     display: inline-block;
 }
 
-.menu__list-item + .menu__list-item {
+.menu__list-item+.menu__list-item {
     margin-left: 52px;
 }
 
@@ -121,7 +122,7 @@ a {
 }
 
 .header__phone::before {
-    content:"";
+    content: "";
     position: absolute;
     background-image: url(../images/phone.svg);
     width: 30px;
@@ -198,4 +199,127 @@ a {
 
 .fairy-tail__body-title {
     font-family: 'RobotoCondensed-Regular';
+}
+
+.fairy-tail__text {
+    padding: 10px 0;
+}
+
+.our-trip__title span {
+    margin-left: 245px;
+}
+
+.our-trip__slider {
+    width: 50%;
+    margin-left: auto;
+}
+
+.our-trip__inner {
+    position: relative;
+}
+
+.our-trip__container {
+    max-width: 1230px;
+    margin: 0 auto;
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+.our-trip__body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+    align-items: start;
+}
+
+.our-trip__list {
+    margin: 5px 0;
+    font-size: 24px;
+    line-height: 28px;
+}
+
+.our-trip__list li:first-child {
+    margin-bottom: 20px;
+    font-family: 'RobotoCondensed-Regular';
+}
+
+.our-trip__btn {
+    font-size: 24px;
+    line-height: 28px;
+    font-family: 'RobotoCondensed-Light';
+    border: 1px solid #E2AB3F;
+    padding: 11px 53px;
+}
+
+.our-trip__content {
+    width: 50%;
+    padding-right: 55px;
+}
+
+.hotel__title span {
+    margin-left: 110px;
+}
+
+
+.hotrl__inner {
+    display: flex;
+}
+
+.hotel__images{
+    margin-right: 100px;
+}
+
+.hotel__text {
+    margin-bottom: 20px;
+}
+
+.hotel__gallery {
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 39px;
+}
+
+.hotel__gallery a {
+    margin-top: 50px;
+}
+
+.hotel__title {
+    margin-top: 200px;
+}
+
+.price__inner {
+    display: flex;
+}
+
+.price_on_title,
+.price_off_title{
+    font-size: 24px;
+    line-height: 28px;
+    margin-bottom: 50px;
+    font-family: 'RobotoCondensed-Regular';
+}
+
+.price_on {
+    margin-right: 70px;
+    width: 530px;
+}
+
+.price__list-item {
+    margin-bottom: 20px;
+}
+
+.price__title span {
+    margin-left: 120px;
+}
+
+.price {
+    background-image: url(../images/price-bg.png);
+    background-repeat: no-repeat;
+    background-position: center right 9%;
 }
